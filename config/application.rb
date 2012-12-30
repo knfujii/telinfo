@@ -64,5 +64,11 @@ module Telinfo
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Using RSpec for testing framework
+    config.generators do |g|
+      g.test_framework :rspec, :fixture => true, :view_specs => false
+      g.fixture_replacement :factory_girl, :dir => "spec/factories"
+    end
   end
 end
