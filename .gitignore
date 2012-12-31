@@ -17,3 +17,6 @@
 
 # Ignore Netbeans project files
 /nbproject
+
+# Ignore simplecov
+/coverage
