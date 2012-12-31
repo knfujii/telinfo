@@ -11,17 +11,6 @@ Spork.prefork do
     require 'simplecov'
     SimpleCov.start 'rails'
   end
-end
-
-Spork.each_run do
-  # This code will be run each time you run your specs.
-  if ENV['DRB']
-    require 'simplecov'
-    SimpleCov.start 'rails'
-  end
-
-  FactoryGirl.reload
-  Telinfo::Application.reload_routes!
 
   # This file is copied to spec/ when you run 'rails generate rspec:install'
   ENV["RAILS_ENV"] ||= 'test'
@@ -61,6 +50,17 @@ Spork.each_run do
     #     --seed 1234
     config.order = "random"
   end
+end
+
+Spork.each_run do
+  # This code will be run each time you run your specs.
+  if ENV['DRB']
+    require 'simplecov'
+    SimpleCov.start 'rails'
+  end
+
+  FactoryGirl.reload
+  Telinfo::Application.reload_routes!
 end
 
 # --- Instructions ---
