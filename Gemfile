@@ -24,8 +24,6 @@ group :assets do
   # デザインまわり
   gem 'twitter-bootstrap-rails'
   gem 'compass-rails' # 効率的にSASSを扱える
-  gem 'sassy-buttons' # ボタンの色違いを簡単に作成
-  gem 'zurui-sass-rails' # ズルイデザイン
   gem 'less-rails'
 end
 
