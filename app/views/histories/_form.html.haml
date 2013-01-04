@@ -1,0 +1,24 @@
+= simple_form_for @history, :html => { :class => 'form-horizontal' } do |f|
+  = f.input :incident_no
+  = f.input :customer_no
+  = f.input :customer_name
+  = f.input :rank
+  = f.input :status
+  = f.input :acceptance_user
+  = f.input :customer_user
+  = f.input :primary_user
+  = f.input :support_user
+  = f.input :title
+  = f.input :details
+  = f.input :category
+  = f.input :target
+  = f.input :priority
+  = f.input :necessity_contact
+  = f.input :period_contact_on
+  = f.input :acceptance_at
+  = f.input :first_contact_at
+  = f.input :target_on
+  = f.input :completion_on
+  .form-actions
+    = f.button :submit, :class => 'btn-primary'
+    = link_to t('.cancel', :default => t("helpers.links.cancel")), histories_path, :class => 'btn'
