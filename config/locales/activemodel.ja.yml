@@ -1,0 +1,5 @@
+ja:
+  activemodel:
+    attributes:
+      # klass:
+      #   item: :activerecord.attributes.klass.item

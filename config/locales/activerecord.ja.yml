@@ -1,0 +1,26 @@
+ja:
+  activerecord:
+    models:
+      history: 履歴
+    attributes:
+      history:
+        incident_no: インシデントNo
+        customer_no: 顧客No
+        customer_name: 顧客名
+        rank: ランク
+        status: ステータス
+        acceptance_user: 受付者
+        customer_user: 顧客担当
+        primary_user: 当社担当
+        support_user: 当社対応
+        title: 要件
+        details: 要件詳細
+        category: 分類
+        target:  対象
+        priority: 優先度(緊急度)
+        necessity_contact: 連絡要否
+        period_contact_on: 連絡期限
+        acceptance_at: 受付日時
+        first_contact_at: 第1報日時
+        target_on: 完了予定日
+        completion_on: 完了日

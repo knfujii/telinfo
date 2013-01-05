@@ -1,0 +1,6 @@
+ja:
+  messages:
+    successfully_created: 登録に成功しました。
+    successfully_updated: 更新に成功しました。
+    successfully_deleted: 削除に成功しました。
+    execution_confirm: ! '%{method}処理を実行しますか？'
