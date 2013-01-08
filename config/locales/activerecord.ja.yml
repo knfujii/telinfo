@@ -17,7 +17,7 @@ ja:
         details: 要件詳細
         category: 分類
         target:  対象
-        priority: 優先度(緊急度)
+        priority: 緊急度
         necessity_contact: 連絡要否
         period_contact_on: 連絡期限
         acceptance_at: 受付日時

@@ -34,7 +34,7 @@ ja:
       default: ! '%Y/%m/%d'
       long: ! '%Y年%m月%d日(%a)'
       long_jp: ! '%K年%m月%d日(%a)'
-      short: ! '%m/%d'
+      short: ! '%y/%m/%d'
     month_names:
     - 
     - 1月
